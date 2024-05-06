@@ -50,8 +50,10 @@ plt.scatter(X,Y)
 plt.plot(X,y_predicted,color='red')
 plt.show()  
 */
-```
 
+
+
+```
 ## Output:
 ![Univariate Linear Regression to fit a straight line using least squares](https://github.com/anu-varshini11/Find-the-best-fit-line-using-Least-Squares-Method/assets/138969827/ee51c628-e29c-4a5f-b6c7-94df7549945c)
 
