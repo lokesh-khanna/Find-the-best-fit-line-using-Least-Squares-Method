@@ -1,11 +1,13 @@
-Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
-AIM:
+# Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
+
+## AIM:
 To write a program to predict the marks scored by a student using the simple linear regression model.
 
-Equipments Required:
-Hardware – PCs
-Anaconda – Python 3.7 Installation / Jupyter notebook
-Algorithm
+## Equipments Required:
+1. Hardware – PCs
+2. Anaconda – Python 3.7 Installation / Jupyter notebook
+
+## Algorithm
 1.Import the standard Libraries.
 
 2.Set variables for assigning dataset values.
@@ -18,7 +20,8 @@ Algorithm
 
 6.Compare the graphs and hence we obtained the linear regression for the given datas.
 
-Program:
+## Program:
+```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: lokesh khanna R
@@ -80,33 +83,36 @@ import numpy as np
 rmse=np.sqrt(mse)
 print('RMSE = ',rmse)
 */
-Output:
-df.head():
-Screenshot 2023-08-26 120009
+```
 
-df.tail():
-Screenshot 2023-08-26 120021
+## Output:
+### df.head():
+![Screenshot 2023-08-26 120009](https://github.com/S-ARVIND01/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707337/4a10342a-4fcc-47db-a298-4d87d6485991)
 
-Array value of X:
-Screenshot 2023-08-26 120040
+### df.tail():
+![Screenshot 2023-08-26 120021](https://github.com/S-ARVIND01/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707337/5b1b966e-600d-4aec-821c-0df2d9bbc311)
 
-Array value of Y:
-Screenshot 2023-08-26 120053
+### Array value of X:
+![Screenshot 2023-08-26 120040](https://github.com/S-ARVIND01/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707337/bfc57abc-2843-49c2-a296-0ea9c2a26bba)
 
-Values of Y prediction:
-Screenshot 2023-08-26 120104
+### Array value of Y:
+![Screenshot 2023-08-26 120053](https://github.com/S-ARVIND01/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707337/aadb93a4-2245-4963-9b6a-a1e83a4feaea)
 
-Values of Y test:
-Screenshot 2023-08-26 120116
+### Values of Y prediction:
+![Screenshot 2023-08-26 120104](https://github.com/S-ARVIND01/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707337/f5e5cf9a-c40c-40c7-bff6-21e7ac15f965)
 
-Training Set Graph:
-Screenshot 2023-08-26 120137
+### Values of Y test:
+![Screenshot 2023-08-26 120116](https://github.com/S-ARVIND01/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707337/37b5fb12-d11a-48bc-8792-1798f55b3876)
 
-Test Set Graph:
-Screenshot 2023-08-26 120210
+### Training Set Graph:
+![Screenshot 2023-08-26 120137](https://github.com/S-ARVIND01/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707337/60125d6d-4c88-4724-9924-a3f66bab0699)
 
-Values of MSE, MAE and RMSE:
-Screenshot 2023-08-26 120222
+### Test Set Graph:
+![Screenshot 2023-08-26 120210](https://github.com/S-ARVIND01/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707337/c3e2fb4c-0f13-47a4-af45-b929f1ca90d3)
 
-Result:
+### Values of MSE, MAE and RMSE:
+![Screenshot 2023-08-26 120222](https://github.com/S-ARVIND01/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118707337/513a0073-7dd8-427e-b250-4415a60ea7a1)
+
+
+## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
