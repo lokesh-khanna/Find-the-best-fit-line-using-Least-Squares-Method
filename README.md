@@ -42,7 +42,7 @@ print(Y_Pred)
 plt.scatter(X,Y)
 plt.plot(X,Y_Pred,color="red")
 plt.show() 
-
+```
 ## Output:
 ![image](https://github.com/lokesh-khanna/Find-the-best-fit-line-using-Least-Squares-Method/assets/119606216/da8d028f-5e78-4526-acb9-a2782fceef2e)
 
